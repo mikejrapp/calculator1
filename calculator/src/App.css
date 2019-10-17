@@ -1,7 +1,22 @@
 .backpanel{
 	height: 40rem;
 	width: 35rem;
-	background-color: gray;
+    background-color: gray;
+    position: absolute;
+    left: 25%;
+    top: 3rem;
+    border-radius: 2rem;
+}
+
+.front-panel{
+    background-color: lightgray;
+}
+
+.display-bar{
+    height: 6rem;
+    width: 30rem;
+    background-color: white;
+    border-radius: 3rem;
 }
 
 .number-button{
@@ -9,4 +24,29 @@
     width: 6rem;
     background-color: aliceblue;
     border-radius: 2rem;
+}
+
+#number-panel{
+    height: 75%;
+    width: 90%;
+    border-radius: 2rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#display-panel{
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.number-row{
+    height: 20%;
+    width: 75%;
+    display: flex;
+    align-content: space-between;
 }
