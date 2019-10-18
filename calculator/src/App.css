@@ -1,5 +1,5 @@
 .backpanel{
-	height: 40rem;
+	height: 45rem;
 	width: 35rem;
     background-color: gray;
     position: absolute;
@@ -17,6 +17,7 @@
     width: 30rem;
     background-color: white;
     border-radius: 3rem;
+    margin-top: 3rem;
 }
 
 .number-button{
@@ -27,10 +28,10 @@
 }
 
 #number-panel{
-    height: 75%;
+    height: 65%;
     width: 90%;
     border-radius: 2rem;
-    margin: 0 auto;
+    margin: 3rem auto 0 auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -45,8 +46,9 @@
 }
 
 .number-row{
-    height: 20%;
+    height: 4rem;
     width: 75%;
     display: flex;
-    align-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 2rem;
 }

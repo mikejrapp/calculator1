@@ -28,6 +28,9 @@ function App() {
 						<Button class="number-button" id="button-2"></Button>
 						<Button class="number-button" id="button-1"></Button>
 					</Panel>
+					<Panel class="number-row" id="number-row-4">
+						<Button class="number-button" id="button-1"></Button>
+					</Panel>
 				</Panel>
 			</Panel>
 		</div>
